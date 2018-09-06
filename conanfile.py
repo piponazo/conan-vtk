@@ -15,7 +15,7 @@ class VTKConan(ConanFile):
     options = {"shared": [True, False], "qt": [True, False], "mpi": [True, False],
                "fPIC": [True, False], "minimal": [True, False], "ioxml": [True, False],
                "ioparallelxml": [True, False]}
-    default_options = ("shared=False", "qt=False", "mpi=False", "fPIC=False",
+    default_options = ("shared=True", "qt=False", "mpi=False", "fPIC=False",
         "minimal=False", "ioxml=False", "ioparallelxml=False")
 
     short_paths = True
